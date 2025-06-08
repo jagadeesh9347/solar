@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>3D Solar System - Jagadeesh</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="dark-theme">
+    <h1>3D Solar System Simulation</h1>
+    <div id="top-controls">
+        <button id="pauseResumeBtn">Pause</button>
+        <button id="themeToggleBtn">Light Theme</button>
+    </div>
+    <div id="controls">
+        <!-- Speed control sliders will be generated here by script.js -->
+    </div>
+    <div id="container"></div>
+
+    <!-- Three.js core library -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <!-- OrbitControls from correct CDN path -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+    <!-- Main simulation script -->
+    <script src="script.js"></script>
+</body>
+</html>
